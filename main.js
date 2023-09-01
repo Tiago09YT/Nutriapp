@@ -11,6 +11,8 @@ function pestania1() {
     document.getElementById("img3").style.height="0px";
     document.getElementById("img4").style.height="0px";
     document.getElementById("img5").style.height="0px";
+    document.getElementById("w5").style.height="100%";
+    document.getElementById("w5").style.cursor="pointer";
 }
 function pestania2() {
     document.getElementById("img1").style.height="0px";
@@ -18,6 +20,8 @@ function pestania2() {
     document.getElementById("img3").style.height="0px";
     document.getElementById("img4").style.height="0px";
     document.getElementById("img5").style.height="0px";
+    document.getElementById("w5").style.height="0px";
+    document.getElementById("w5").style.cursor="";
 }
 function pestania4() {
     document.getElementById("img1").style.height="0px";
@@ -25,6 +29,8 @@ function pestania4() {
     document.getElementById("img3").style.height="93vh";
     document.getElementById("img4").style.height="0px";
     document.getElementById("img5").style.height="0px";
+    document.getElementById("w5").style.height="0px";
+    document.getElementById("w5").style.cursor="";
 }
 function pestania3() {
     document.getElementById("img1").style.height="0px";
@@ -32,6 +38,8 @@ function pestania3() {
     document.getElementById("img3").style.height="0px";
     document.getElementById("img4").style.height="93vh";
     document.getElementById("img5").style.height="0px";
+    document.getElementById("w5").style.height="0px";
+    document.getElementById("w5").style.cursor="";
 }
 function pestania5() {
     document.getElementById("img1").style.height="0px";
@@ -39,6 +47,9 @@ function pestania5() {
     document.getElementById("img3").style.height="0px";
     document.getElementById("img4").style.height="0px";
     document.getElementById("img5").style.height="93vh";
+    document.getElementById("w5").style.height="0px";
+    document.getElementById("w5").style.cursor="";
+
 }
 button1.onclick = pestania1;
 button2.onclick = pestania2;
