@@ -13,6 +13,8 @@ function pestania1() {
     document.getElementById("img5").style.height="0px";
     document.getElementById("w5").style.height="100%";
     document.getElementById("w5").style.cursor="pointer";
+    document.getElementById("back").style.height="0px";
+    document.getElementById("back").style.cursor="default";
 }
 function pestania2() {
     document.getElementById("img1").style.height="0px";
@@ -21,7 +23,9 @@ function pestania2() {
     document.getElementById("img4").style.height="0px";
     document.getElementById("img5").style.height="0px";
     document.getElementById("w5").style.height="0px";
-    document.getElementById("w5").style.cursor="";
+    document.getElementById("w5").style.cursor="default";
+    document.getElementById("back").style.height="0px";
+    document.getElementById("back").style.cursor="default";
 }
 function pestania4() {
     document.getElementById("img1").style.height="0px";
@@ -30,7 +34,9 @@ function pestania4() {
     document.getElementById("img4").style.height="0px";
     document.getElementById("img5").style.height="0px";
     document.getElementById("w5").style.height="0px";
-    document.getElementById("w5").style.cursor="";
+    document.getElementById("w5").style.cursor="default";
+    document.getElementById("back").style.height="0px";
+    document.getElementById("back").style.cursor="default";
 }
 function pestania3() {
     document.getElementById("img1").style.height="0px";
@@ -39,7 +45,9 @@ function pestania3() {
     document.getElementById("img4").style.height="93vh";
     document.getElementById("img5").style.height="0px";
     document.getElementById("w5").style.height="0px";
-    document.getElementById("w5").style.cursor="";
+    document.getElementById("w5").style.cursor="default";
+    document.getElementById("back").style.height="0px";
+    document.getElementById("back").style.cursor="default";
 }
 function pestania5() {
     document.getElementById("img1").style.height="0px";
@@ -48,7 +56,9 @@ function pestania5() {
     document.getElementById("img4").style.height="0px";
     document.getElementById("img5").style.height="93vh";
     document.getElementById("w5").style.height="0px";
-    document.getElementById("w5").style.cursor="";
+    document.getElementById("w5").style.cursor="default";
+    document.getElementById("back").style.height="100%";
+    document.getElementById("back").style.cursor="pointer";
 
 }
 button1.onclick = pestania1;
