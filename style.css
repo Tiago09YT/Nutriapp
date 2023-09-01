@@ -34,7 +34,7 @@ body {
     left: 0.2rem;
 }
 
-button {
+#button {
     position: relative;
     bottom: 3.6rem;
     width: 25px;
@@ -49,4 +49,27 @@ button {
 }
 .w4 {
     left: 0.1rem;
+}
+.receta {
+    position: relative;
+    bottom: 31.5rem;
+    
+}
+.w5 {
+    height: 6.9rem;
+    width: 12.2rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: 0rem;
+    cursor: pointer;
+}
+.back {
+    position: relative;
+    height: 1.6rem;
+    bottom: 43.7rem;
+    left: 1.7rem;
+    width: 2rem;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
 }
